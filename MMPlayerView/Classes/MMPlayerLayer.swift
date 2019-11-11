@@ -193,7 +193,7 @@ public class MMPlayerLayer: AVPlayerLayer {
     
     fileprivate func setup() {
         self.player = AVPlayer()
-        self.backgroundColor = UIColor.black.cgColor
+        self.backgroundColor = UIColor.clear.cgColor
         self.progressType = .default
         self.addPlayerObserver()
     }
